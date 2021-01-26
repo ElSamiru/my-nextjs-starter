@@ -4,7 +4,7 @@
 For those who don't want to waste time on configuration !!
 
 ## ⚡ Quick Start 
-You want to deploy it on Vercel ? Just click here ⬇️
+You want to deploy it on Vercel ? Just click here
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/ElGodzilla/my-nextjs-starter)
 
 ## 🌠 Getting Started
