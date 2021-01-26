@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Next.js Sass / Framer-Motion Starter
 
-First, run the development server:
+For those who don't want to waste time on configuration !!
 
-```bash
-npm run dev
+## ⚡ Quick Start 
+You want to deploy it on Vercel ? Just click here ⬇️
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/ElGodzilla/my-nextjs-starter)
+
+## 🌠 Getting Started
+
+Run the following command to create a new project with this Starter:
+
+```
+yarn create next-app my-app -e https://github.com/ElGodzilla/my-nextjs-starter
 # or
-yarn dev
+npx create-next-app my-app -e https://github.com/ElGodzilla/my-nextjs-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+```
+yarn dev
+# or
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🧐 What's inside?
+This Starter includes [Sass](https://sass-lang.com/) which is the best way (for me) to provide superpowers to your CSS.
+It include also [Framer-Motion](https://www.framer.com/motion/) which is the best way (also for me 😜) to create awesome animation easily.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 📁 Architecture of the folders
+Because create folders and file can take some time for nothing here is what i added ⬇️
+- assets/fonts/_fonts.scss
+- assets/styles/_variables.scss, _reset.scss, app.scss
+- components/Layout.js
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 👋 Good coding !!
